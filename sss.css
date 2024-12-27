@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; }
+
+.wrapper {
+  flex-direction: column;
+  width: 800px;
+  background: 255,255,255,0.1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color:   rgba(255, 255, 255, 0.671);
+  min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   margin-left: 500px;
+   color: black;
+   text-align: center;
+}
+
+

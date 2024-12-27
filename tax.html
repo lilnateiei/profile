@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TAX calculator</title>
+</head>
+<body>
+    <div class="container">
+   <h2>TAX calculate</h2> 
+   
+    <div ><input type="number"id="inc" placeholder="Enter Your Income" class="input-box"></div>
+    <div ><input type="number" id="ded" placeholder="Enter Your Expenses or Deductions" class="input-box"></div>
+    <button  type="button"  class="btn"  onclick="Cal()">คำนวณการจ่ายภาษีของคุณ</button>
+    <div class="mor">ภาษีที่ต้องชำระ: <span id="Result" >0</span> บาท </div>
+     <div id="taxmes" class="hel"></div>
+    <script src="tax.js"></script>
+    <div class="new"><a href="index.html">ย้อนกลับ</a></div>
+
+   </div>
+
+
+</body>
+</html>
