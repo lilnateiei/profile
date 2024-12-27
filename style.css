@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; }
+
+body {
+    min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url('orange.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 450px;
+  position: relative;
+  z-index: 1;
+  background: 255,255,255,0.1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color:  rgb(0,0,0,0.5);
+
+}
+
+
+.input-box {
+    max-width: 550px;
+    padding: 10px;
+    margin-top: 30px;  /* เว้นระยะห่างinput box */
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: inset -3px -3px rgb(0,0,0,0.5);
+    outline: none;
+    background-color: transparent;
+    border: none;
+    width: 75%;
+    padding: 12px;
+    margin-left: 40px;
+    
+    
+}
+
+.input-box::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+}
+
+h2 {
+    color: #fff;
+    margin-left: 100px;
+}
+
+.btn {
+    padding: 10PX 20PX;
+    margin: 50PX;
+    width: 75%;
+    background-color: rgb(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgb(0,0,0,0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.btn:hover {
+    padding: 10PX 20PX;
+    margin: 50PX;
+    width: 75%;
+    background-color: rgba(185, 185, 185, 0.5);
+    box-shadow: inset -3px -3px rgba(156, 156, 156, 0.5);
+    color: rgb(82, 75, 75);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.btn:active {
+    padding: 10PX 20PX;
+    margin: 50PX;
+    width: 75%;
+    background-color: rgb(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgb(0,0,0,0.5);
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.mor {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.hel {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.container-wrap {
+    display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 450px;
+  position: relative;
+  z-index: 1;
+  background: 255,255,255,0.1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color:  rgb(0,0,0,0.5);
+
+}
+
+.new {
+    color: #fff;
+    align-content: center;
+    margin-left: 120px;
+    font-size: 20px;
+}

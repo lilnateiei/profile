@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela&display=swap');
+
+body {
+    font-family: "Prompt", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+body {
+    display: flex;
+    min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(mountain.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+
+
+
+.container-wrap {
+    display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 450px;
+  position: relative;
+  z-index: 1;
+  background: 255,255,255,0.1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background-color:  rgba(255, 255, 255, 0.753);
+  
+}
+
+
+
