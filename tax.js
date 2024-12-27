@@ -40,4 +40,16 @@ function Cal() {
         document.getElementById("Result").innerHTML = tax.toFixed(2);
         
     }
-   
+    function calculateTravelTime() {
+        
+        let distance = document.getElementById('distance').value;
+        let speed = document.getElementById('speed').value;
+        
+        
+        if (distance > 0 && speed > 0) {
+          let time = distance / speed; 
+          document.getElementById('result').textContent = "ระยะเวลาเดินทาง: " + time.toFixed(2) + " ชั่วโมง";
+        } else {
+          document.getElementById('result').textContent = "กรุณากรอกค่าระยะทางและความเร็วให้ถูกต้อง";
+        }
+      }
