@@ -4,21 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="stylet.css">
-       
+           
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
         <title>TravelTime Calculate</title>
     </head>
     <body>
         <div class="container-wrap">
-        <h1>TravelTime Calculate</h1>
+        <div class="txtt">TravelTime Calculate</div>
         <label for="distance" class="txt">ระยะทาง (กิโลเมตร): </label>
-        <input type="number" id="distance" placeholder="กรอกระยะทาง" class="input" required><br><br>
+        <input type="number"  class="input input-bordered input-warning w-full max-w-xs" id="distance" placeholder="กรอกระยะทาง" required/> 
         <label for="speed"  class="txt">ความเร็ว (กิโลเมตร/ชั่วโมง): </label>
-    <input type="number" id="speed" placeholder="กรอกความเร็ว" class="input" required ><br><br>
+        <input type="number"  class="input input-bordered input-warning w-full max-w-xs" id="speed" placeholder="กรอกความเร็ว" required >
 
     <button onclick="calculateTravelTime()" class="btn">คำนวณระยะเวลาเดินทาง</button>
 
     <h2 id="result" class="txt"></h2>
-    <a href="index.html" class="jeep">ย้อนกลับ</a>
+    <button class="btn btn-link"><a href="index.html">Back To Profile</a></button>
        
        
     </div>
