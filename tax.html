@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>TAX calculator</title>
 </head>
 <body>
-    <div class="container">
-   <h2>TAX calculate</h2> 
+    <div class="container-wrap">
+     <div class="txtt">TAX calculate</div> 
    
-    <div ><input type="number"id="inc" placeholder="Enter Your Income" class="input-box"></div>
-    <div ><input type="number" id="ded" placeholder="Enter Your Expenses or Deductions" class="input-box"></div>
+    <input type="number" class="input input-bordered input-success w-full max-w-xs" id="inc" placeholder="Enter Your Income" />
+    <input type="number" id="ded" placeholder="Enter Your Expenses"class="input input-bordered input-success w-full max-w-xs" />
     <button  type="button"  class="btn"  onclick="Cal()">คำนวณการจ่ายภาษีของคุณ</button>
-    <div class="mor">ภาษีที่ต้องชำระ: <span id="Result" >0</span> บาท </div>
+    <div class="txt">ภาษีที่ต้องชำระ: <span id="Result" >0</span> บาท </div>
      <div id="taxmes" class="hel"></div>
+     <button class="btn btn-link"><a href="index.html">Back To Profile</a></button>
+
+     
     <script src="tax.js"></script>
-    <div class="new"><a href="index.html">ย้อนกลับ</a></div>
 
    </div>
 
